@@ -19,33 +19,48 @@ function App() {
     >
       <div
         style={{
-          height: "100%",
           width: "100%",
-          background: "lightblue",
-          overflow: "auto",
-          padding: "16px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "16px",
         }}
       >
-        <DndKit />
+        <p>Dnd-Kit</p>
+        <div
+          style={{
+            height: "100%",
+            width: "100%",
+            background: "lightblue",
+            overflow: "scroll",
+            padding: "16px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "16px",
+          }}
+        >
+          <DndKit />
+        </div>
       </div>
       <div
         style={{
-          height: "100%",
           width: "100%",
-          background: "pink",
-          overflow: "auto",
-          padding: "16px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "16px",
         }}
       >
-        <ReactDnd />
+        <p>React-Dnd</p>
+        <div
+          style={{
+            height: "100%",
+            width: "100%",
+            background: "pink",
+            overflow: "auto",
+            padding: "16px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "16px",
+          }}
+        >
+          <ReactDnd />
+        </div>
       </div>
       <div style={{ width: "100%" }}>
+        <p>React-Beautiful-Dnd</p>
         <ReactBeautifulDnd />
       </div>
       <div
@@ -54,6 +69,7 @@ function App() {
           width: "100%",
         }}
       >
+        <p>Framer motion</p>
         <FramerReorder />
       </div>
     </div>
